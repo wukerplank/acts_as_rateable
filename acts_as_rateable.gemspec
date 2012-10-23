@@ -7,11 +7,11 @@ require "acts_as_rateable/version"
 Gem::Specification.new do |s|
   s.name        = "acts_as_rateable"
   s.version     = ActsAsRateable::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of ActsAsRateable."
-  s.description = "TODO: Description of ActsAsRateable."
+  s.authors     = ["Christoph Edthofer"]
+  s.email       = ["christoph@edthofer.at"]
+  s.homepage    = "https://github.com/wukerplank/acts_as_rateable"
+  s.summary     = "This is the gemified version of acts_as_rateable by @juixe."
+  s.description = "This is the gemified version of acts_as_rateable by @juixe."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
