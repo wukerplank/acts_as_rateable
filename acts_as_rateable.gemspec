@@ -12,11 +12,9 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/wukerplank/acts_as_rateable"
   s.summary     = "This is the gemified version of acts_as_rateable by @juixe."
   s.description = "This is the gemified version of acts_as_rateable by @juixe."
-
+  
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
   s.test_files = Dir["test/**/*"]
-
-  s.add_dependency "rails", "~> 4.0.0"
-
+  
   s.add_development_dependency "sqlite3"
 end
